@@ -1,60 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>My Simple Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Demonstration - Dudhkunda Lake</title>
 </head>
+
 <body>
 
-    <h1>Welcome to My Website</h1>
+    <header>
+        <h1>Welcome to My HTML Demonstration Website</h1>
+        <p>This webpage demonstrates various HTML elements and features.</p>
+    </header>
 
-    <p>
-        This is a simple website created using basic HTML tags.
-        It contains a heading, paragraph, image, table, and list.
-    </p>
+    <nav>
+        <a href="#about">About Nature</a> |
+        <a href="#students">Student Information</a> |
+        <a href="#features">Features</a>
+    </nav>
 
-    <h2>About Nature</h2>
+    <hr>
 
-    <img src="Dudhkunda.jpg" alt="Beautiful Nature" width="300">
+    <section id="about">
+        <h2>About Dudhkunda Lake</h2>
 
-    <p>
-        The above image shows, beautiful mountain behind the lake in the himalayas surrounding the overall
-        area. It is also known as dhudhkunda lake behind it is a beautiful mountain. It is also mostly famous for the trekking appeal.
-        Most of the people who visit this place are trekkers and nature lovers. It is also a very good place for camping and hiking also 
-        for local people.
+        <img src="Dudhkunda.jpg"
+             alt="Dudhkunda Lake surrounded by mountains"
+             width="500">
 
-    </p>
+        <p>
+            Dudhkunda Lake is a beautiful alpine lake located in the Himalayan
+            region of Nepal. The lake is surrounded by breathtaking mountains
+            and natural scenery. It is a popular destination for trekkers,
+            hikers, campers, and nature lovers who visit to enjoy its peaceful
+            environment and stunning landscapes.
+        </p>
 
-    <h2>Student Information</h2>
+        <p>
+            Learn more about Nepal tourism by visiting
+            <a href="https://ntb.gov.np/" target="_blank">
+                Nepal Tourism Board
+            </a>.
+        </p>
+    </section>
 
-    <table border="1">
-        <tr>
-            <th>SN</th>
-            <th>Name</th>
-            <th>Course</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Saugat</td>
-            <td>Web Development</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Amik</td>
-            <td>Computer Science</td>
-        </tr>
-    </table>
+    <hr>
 
-    <h2>Features of This Website</h2>
+    <section id="students">
+        <h2>Student Information</h2>
 
-    <ul>
-        <li>Simple Design</li>
-        <li>Easy to Understand</li>
-        <li>Uses Basic HTML Tags</li>
-    </ul>
+        <table border="1">
+            <tr>
+                <th>SN</th>
+                <th>Name</th>
+                <th>Course</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Saugat</td>
+                <td>Web Development</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Amik</td>
+                <td>Computer Science</td>
+            </tr>
+        </table>
+    </section>
 
-    <p>
-        <b>Thank you</b> for visiting my website.
-    </p>
+    <hr>
+
+    <section id="features">
+        <h2>Features of This Website</h2>
+
+        <ul>
+            <li>Uses headings and paragraphs</li>
+            <li>Displays an image</li>
+            <li>Contains a table</li>
+            <li>Uses hyperlinks</li>
+            <li>Uses semantic HTML elements</li>
+            <li>Simple and easy-to-understand structure</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p><strong>Thank you</strong> for visiting my website.</p>
+        <p>&copy; 2025 HTML Portfolio Demonstration</p>
+    </footer>
 
 </body>
+
 </html>
